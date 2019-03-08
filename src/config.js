@@ -64,4 +64,4 @@ const COURIER = {
   base: COURIERBASE_URL,
 };
 
-export {API, COURIER, mountainPreview, thamesPreview};
+export {API, COURIER};
