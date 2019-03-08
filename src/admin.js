@@ -57,7 +57,7 @@ const loadCourierContainer = Protected(
   Loader(() => {
     return import('container/courier');
   }),
-  'admin',
+  'mod_website',
 );
 const loadSetupContainer = Loader(() => {
   return import('container/setup');
