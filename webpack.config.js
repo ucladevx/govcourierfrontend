@@ -116,14 +116,14 @@ const createConfig = (env, argv) => {
     config.plugins.push(
       new webpack.DefinePlugin({
         APIBASE_URL: JSON.stringify('http://localhost:8080/api'),
-        COURIERBASE_URL: JSON.stringify('http://localhost:8080/link'),
+        COURIERBASE_URL: JSON.stringify('http://localhost:8080/l'),
       }),
     );
   } else {
     config.plugins.push(
       new webpack.DefinePlugin({
         APIBASE_URL: JSON.stringify('/api'),
-        COURIERBASE_URL: JSON.stringify('/link'),
+        COURIERBASE_URL: JSON.stringify('/l'),
       }),
     );
     //config.plugins.push(new BundleAnalyzer({analyzerMode: 'static', openAnalyzer: true}));
