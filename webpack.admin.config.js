@@ -123,7 +123,7 @@ const createConfig = (env, argv) => {
     config.plugins.push(
       new webpack.DefinePlugin({
         APIBASE_URL: JSON.stringify('/api'),
-        COURIERBASE_URL: JSON.stringify('https://www.ucladevx.com/l'),
+        COURIERBASE_URL: JSON.stringify('https://ucladevx.com/l'),
       }),
     );
     //config.plugins.push(new BundleAnalyzer({analyzerMode: 'static', openAnalyzer: true}));
